@@ -6,7 +6,7 @@ namespace UnlockZones
     {
         //Cities: Skylines' compiler uses old version of C#, can't use the => operator. 
         public string Name { get { return "Unlock Zones"; } } 
-        public string Description { get { return "All types of zones are unlocked from the start. Requires Harmony."; } }
+        public string Description { get { return "All types of zones are unlocked from the start."; } }
     }
 
     public class MilestoneExtension : MilestonesExtensionBase
